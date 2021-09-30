@@ -1,5 +1,5 @@
 module.exports = {
-  prefix: "tw-",
+  // prefix: "tw-",
   purge: {
     enabled: process.env.TAILWIND_ENV === "production" ? true : false,
     content: [
@@ -12,7 +12,7 @@ module.exports = {
     ],
     defaultExtractor: (content) => content.match(/[A-Za-z0-9-_:/]+/g) || [],
     options: {
-      safelist: ["tw-flex", "tw-space-x-6", "tw-gap-8", "tw-p-4"],
+      // safelist: ["tw-flex", "tw-space-x-6", "tw-gap-8", "tw-p-4"],
     },
   },
   theme: {

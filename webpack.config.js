@@ -22,9 +22,9 @@ module.exports = {
           {
             loader: "babel-loader",
           },
-          {
-            loader: "react-classname-prefix-loader?prefix=tw",
-          },
+          // {
+          //   loader: "react-classname-prefix-loader?prefix=tw",
+          // },
         ],
       },
       {
@@ -35,9 +35,9 @@ module.exports = {
           {
             loader: "babel-loader",
           },
-          {
-            loader: "react-classname-prefix-loader?prefix=v2",
-          },
+          // {
+          //   loader: "react-classname-prefix-loader?prefix=v2",
+          // },
         ],
       },
       {

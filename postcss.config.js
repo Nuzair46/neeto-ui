@@ -9,16 +9,16 @@ module.exports = {
       stage: 3,
     }),
     require("cssnano"),
-    require("postcss-prefixer")({
-      prefix: "v2-",
-      ignore: [
-        /tw-/,
-        /Toastify/,
-        /tippy-box/,
-        /tippy-arrow/,
-        /tippy-content/,
-        /tippy-svg-arrow/,
-      ],
-    }),
+    // require("postcss-prefixer")({
+    //   prefix: "v2-",
+    //   ignore: [
+    //     /tw-/,
+    //     /Toastify/,
+    //     /tippy-box/,
+    //     /tippy-arrow/,
+    //     /tippy-content/,
+    //     /tippy-svg-arrow/,
+    //   ],
+    // }),
   ],
 };
